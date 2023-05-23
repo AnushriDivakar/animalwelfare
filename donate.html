@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./donate.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="donate1">
+      <header class="donate-child"></header>
+      <h1 class="donate2">DONATE</h1>
+      <div class="donate-inner">
+        <div class="group-child"></div>
+      </div>
+      <div class="donate-item"></div>
+      <div class="rectangle-div"></div>
+      <section class="donate-child1"></section>
+      <img class="donate-child2" alt="" src="./public/rectangle-25@2x.png" />
+
+      <img class="donate-child3" alt="" src="./public/rectangle-26@2x.png" />
+
+      <img class="donate-child4" alt="" src="./public/rectangle-27@2x.png" />
+
+      <img class="donate-child5" alt="" src="./public/rectangle-28@2x.png" />
+
+      <button class="food" id="food">Food</button>
+      <button class="food" id="food1">Food</button>
+      <button class="surgery" id="surgery">Surgery</button>
+      <button class="medicine" id="medicine">Medicine</button>
+      <button class="sterilization" id="sterilization">Sterilization</button>
+      <aside class="rectangle-aside"></aside>
+      <aside class="donate-child6"></aside>
+      <aside class="donate-child7"></aside>
+      <aside class="donate-child8"></aside>
+      <button
+        class="material-symbolsarrow-back-io4"
+        id="materialSymbolsarrowBackIo"
+      >
+        <img class="vector-icon4" alt="" src="./public/vector.svg" />
+      </button>
+    </div>
+
+    <script>
+      var food = document.getElementById("food");
+      if (food) {
+        food.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var food1 = document.getElementById("food1");
+      if (food1) {
+        food1.addEventListener("click", function () {
+          window.open("https://pay.google.com");
+        });
+      }
+      
+      var surgery = document.getElementById("surgery");
+      if (surgery) {
+        surgery.addEventListener("click", function () {
+          window.open("https://pay.google.com");
+        });
+      }
+      
+      var medicine = document.getElementById("medicine");
+      if (medicine) {
+        medicine.addEventListener("click", function () {
+          window.open("https://pay.google.com");
+        });
+      }
+      
+      var sterilization = document.getElementById("sterilization");
+      if (sterilization) {
+        sterilization.addEventListener("click", function () {
+          window.open("https://pay.google.com");
+        });
+      }
+      
+      var materialSymbolsarrowBackIo = document.getElementById(
+        "materialSymbolsarrowBackIo"
+      );
+      if (materialSymbolsarrowBackIo) {
+        materialSymbolsarrowBackIo.addEventListener("click", function (e) {
+          window.location.href = "./services.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+.services-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #7d9065;
+  width: 1440px;
+  height: 120px;
+}
+.services1 {
+  margin: 0;
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 112px);
+  font-size: var(--font-size-45xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-whitesmoke);
+}
+.s6672noph80sf4mg-1-icon {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 806px;
+  height: 904px;
+  object-fit: cover;
+}
+.rectangle-section,
+.services-inner,
+.services-item {
+  position: absolute;
+  top: 188px;
+  left: 855px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-dimgray-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 503px;
+  height: 150px;
+}
+.rectangle-section,
+.services-inner {
+  top: 437px;
+}
+.rectangle-section {
+  top: 683px;
+}
+.services-child1,
+.services-child2,
+.services-child3 {
+  position: absolute;
+  top: 194px;
+  left: 866px;
+  border-radius: var(--br-xl);
+  width: 145px;
+  height: 138px;
+  object-fit: cover;
+}
+.services-child2,
+.services-child3 {
+  top: 443px;
+}
+.services-child3 {
+  top: 689px;
+}
+.adopt2,
+.donate,
+.volunteer {
+  text-decoration: none;
+  position: absolute;
+  top: 235px;
+  left: 1107px;
+  color: inherit;
+  display: inline-block;
+  width: 218px;
+  height: 88px;
+}
+.adopt2,
+.volunteer {
+  top: 468px;
+  left: 1120px;
+}
+.volunteer {
+  top: 732px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 78.96%;
+  width: 45.21%;
+  top: 10.52%;
+  right: 28.02%;
+  bottom: 10.52%;
+  left: 26.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.material-symbolsarrow-back-io2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37px;
+  left: 38px;
+  width: 79px;
+  height: 59px;
+  overflow: hidden;
+}
+.services {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

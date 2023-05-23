@@ -1,0 +1,183 @@
+.donate-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4b567c;
+  width: 1440px;
+  height: 120px;
+}
+.donate2 {
+  margin: 0;
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 112px);
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 276px;
+  height: 72px;
+}
+.donate-inner,
+.group-child {
+  position: absolute;
+  width: 618px;
+  height: 179px;
+}
+.group-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-rosybrown-100);
+  box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+}
+.donate-inner {
+  top: 254px;
+  left: 77px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.donate-child1,
+.donate-item,
+.rectangle-div {
+  position: absolute;
+  top: 668px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-rosybrown-100);
+  width: 618px;
+  height: 179px;
+}
+.donate-item {
+  left: 77px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.donate-child1,
+.rectangle-div {
+  left: 784px;
+}
+.donate-child1 {
+  top: 254px;
+  left: 771px;
+  box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+}
+.donate-child2,
+.donate-child3,
+.donate-child4,
+.donate-child5 {
+  position: absolute;
+  top: 254px;
+  left: 77px;
+  border-radius: var(--br-3xs);
+  width: 200px;
+  height: 179px;
+  object-fit: cover;
+}
+.donate-child3,
+.donate-child4,
+.donate-child5 {
+  left: 771px;
+}
+.donate-child4,
+.donate-child5 {
+  top: 668px;
+  left: 784px;
+}
+.donate-child5 {
+  left: 77px;
+}
+.food,
+.medicine,
+.sterilization,
+.surgery {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 312px;
+  left: 397px;
+  font-size: var(--font-size-29xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 254px;
+  height: 64px;
+}
+.medicine,
+.sterilization,
+.surgery {
+  top: 726px;
+  left: 386px;
+}
+.medicine,
+.sterilization {
+  top: 314px;
+  left: 1047px;
+}
+.sterilization {
+  top: 726px;
+  left: 1029px;
+  width: 302px;
+}
+.donate-child6,
+.donate-child7,
+.donate-child8,
+.rectangle-aside {
+  position: absolute;
+  top: 256px;
+  left: 648px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  width: 47px;
+  height: 179px;
+}
+.donate-child6,
+.donate-child7,
+.donate-child8 {
+  top: 668px;
+}
+.donate-child7,
+.donate-child8 {
+  top: 254px;
+  left: 1342px;
+}
+.donate-child8 {
+  top: 668px;
+  left: 1355px;
+}
+.vector-icon4 {
+  position: absolute;
+  height: 78.96%;
+  width: 45.21%;
+  top: 10.52%;
+  right: 28.02%;
+  bottom: 10.52%;
+  left: 26.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.material-symbolsarrow-back-io4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #4b557c;
+  position: absolute;
+  top: 37px;
+  left: 38px;
+  width: 79px;
+  height: 59px;
+  overflow: hidden;
+}
+.donate1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-inter);
+}

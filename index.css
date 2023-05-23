@@ -1,0 +1,328 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.ggfacebook {
+  position: absolute;
+  top: 1266px;
+  left: 781px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.index-child {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  width: 1440px;
+  height: 555px;
+  object-fit: cover;
+  opacity: 0;
+}
+.index-child.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.index-item {
+  position: absolute;
+  top: 235.5px;
+  left: -822.5px;
+  width: 42px;
+  height: 65.5px;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-sienna);
+  width: 1440px;
+  height: 138px;
+}
+.frame-item {
+  top: 69px;
+  left: 843px;
+  width: 195px;
+  height: 39px;
+}
+.frame-child1,
+.frame-inner {
+  position: absolute;
+  top: 51px;
+  left: 47px;
+  border-radius: var(--br-31xl);
+  width: 82px;
+  height: 58px;
+}
+.frame-child1 {
+  top: 31px;
+  left: 61px;
+  width: 92px;
+  height: 75.91px;
+  object-fit: cover;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 138px;
+}
+.contact-us2,
+.home {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-weight: 700;
+  height: 43px;
+}
+.home {
+  position: absolute;
+  top: 69px;
+  left: 398px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+  color: var(--color-whitesmoke);
+  text-align: left;
+  display: inline-block;
+  width: 108px;
+}
+.contact-us2 {
+  top: 70px;
+  left: 570px;
+  width: 236px;
+}
+.contact-us2,
+.news2,
+.services2 {
+  position: absolute;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-whitesmoke);
+  text-align: left;
+}
+.news2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 68px;
+  left: 1130px;
+  font-weight: 700;
+}
+.services2 {
+  top: 0;
+  left: 0;
+  width: 196px;
+}
+.services-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 70px;
+  left: 870px;
+  width: 196px;
+  height: 39px;
+}
+.services-wrapper:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.index-inner {
+  position: absolute;
+  top: 1343px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 200px;
+}
+.follow-us,
+.we-save-animals {
+  position: absolute;
+  top: 1468px;
+  left: 123px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 731px;
+  height: 31px;
+}
+.follow-us {
+  top: 1396px;
+  width: 151px;
+  height: 32px;
+}
+.image-1,
+.image-2,
+.image-3 {
+  text-decoration: none;
+  position: absolute;
+  top: 1392px;
+  left: 362px;
+  width: 37px;
+  height: 34px;
+  background-image: url(./public/image-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image-2,
+.image-3 {
+  left: 285px;
+  width: 34px;
+  background-image: url(./public/image-2@3x.png);
+}
+.image-3 {
+  top: 1394px;
+  left: 442px;
+  background-image: url(./public/image-3@3x.png);
+}
+.index-child1 {
+  position: absolute;
+  top: 690px;
+  left: -3px;
+  background-color: #956161;
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1446px;
+  height: 656px;
+}
+.line-icon {
+  position: absolute;
+  top: 686.5px;
+  left: 0;
+  width: 1440px;
+  height: 9.04px;
+}
+.contact2,
+.vector-icon8 {
+  position: absolute;
+  top: 1387px;
+  left: 1267px;
+}
+.vector-icon8 {
+  height: 1.17%;
+  width: 1.09%;
+  top: 89.83%;
+  right: 14.46%;
+  bottom: 9.01%;
+  left: 84.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.h6 {
+  position: absolute;
+  top: 1423px;
+  left: 1267px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 144px;
+  height: 20px;
+}
+.h6,
+.welcome-towe-save {
+  margin: 0;
+}
+.we-are-a {
+  margin: 0;
+  font-size: var(--font-size-base);
+}
+.welcome-towe-save-container,
+.will-you-be {
+  position: absolute;
+  top: 932px;
+  left: 781px;
+  display: inline-block;
+  color: var(--color-whitesmoke);
+  width: 604px;
+  height: 315px;
+  font-size: var(--font-size-13xl);
+}
+.will-you-be {
+  margin: 0;
+  top: 285px;
+  left: 95px;
+  font-size: var(--font-size-45xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-black);
+  width: 538px;
+  height: 230px;
+}
+.icoutline-email-icon1 {
+  position: absolute;
+  top: 1018px;
+  left: -149px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.index-child2 {
+  position: absolute;
+  top: 831px;
+  left: 129px;
+  width: 483px;
+  height: 335px;
+  object-fit: cover;
+}
+.icoutline-email-icon2 {
+  position: absolute;
+  top: 1468px;
+  left: 1212px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.animallovegmailcom1 {
+  text-decoration: none;
+  position: absolute;
+  top: 1470px;
+  left: 1259px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  width: 181px;
+  height: 22px;
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1543px;
+  overflow: hidden;
+  opacity: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.index1.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}

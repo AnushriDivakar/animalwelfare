@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./volunteer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="volunteer1">
+      <header class="volunteer-child"></header>
+      <h1 class="volunteer2">VOLUNTEER</h1>
+      <img class="volunteer-item" alt="" src="./public/rectangle-32@2x.png" />
+
+      <h4 class="volunteers-are-the">
+        Volunteers are the biggest support for our shelter. They visit WSA
+        whenever they can and during times in need. They help in cleaning the
+        shelter, grooming our animals, treating, feeding and pampering them.
+        During vaccination drives, sterilization camps, awareness camps and many
+        other programs, volunteers play a very important role. We would love it
+        if more volunteers join us! There is always the need for an extra
+        helping hand. If interested, please contact WSA.
+      </h4>
+      <button class="volunteer-inner" id="rectangleButton"></button>
+      <button class="contact-us" id="cONTACTUS">CONTACT US</button>
+      <button
+        class="material-symbolsarrow-back-io3"
+        id="materialSymbolsarrowBackIo"
+      >
+        <img class="vector-icon3" alt="" src="./public/vector.svg" />
+      </button>
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      
+      var cONTACTUS = document.getElementById("cONTACTUS");
+      if (cONTACTUS) {
+        cONTACTUS.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      
+      var materialSymbolsarrowBackIo = document.getElementById(
+        "materialSymbolsarrowBackIo"
+      );
+      if (materialSymbolsarrowBackIo) {
+        materialSymbolsarrowBackIo.addEventListener("click", function (e) {
+          window.location.href = "./services.html";
+        });
+      }
+      </script>
+  </body>
+</html>
